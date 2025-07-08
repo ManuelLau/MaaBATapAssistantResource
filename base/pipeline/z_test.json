@@ -1,0 +1,26 @@
+{
+	"t1": {
+		"recognition": "OCR",
+		"text": ["特别","签到"],
+		"roi": [430, 0, 850, 360],
+		"doc": "test"
+	},
+	"t2": {
+		"recognition": "TemplateMatch",
+		"template": "InviteNeighboring0.png",
+		"doc": "test"
+	},
+	"Test": {
+		"recognition": "TemplateMatch",
+		"template": ["InviteNeighboring0.png","InviteNeighboring1.png","InviteNormal.png","InviteSwapAlt.png"],
+		"roi": [366, 140, 546, 336],
+		"threshold": 0.9,
+		"doc": "test"
+	},
+	"RankBiggerThan20": {
+        "recognition": "OCR",
+		"text": "^(20|[2-9][0-9]|100)$",
+		"roi": [576, 484, 130, 100],
+		"action": "Click"
+    }
+}

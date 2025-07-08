@@ -1,0 +1,8 @@
+{
+	"CafeInvite@ClickSortTypeButton": {
+		"text": ["羈絆等級", "精選", "學園", "名字"]
+	},
+	"CafeInvite@ChangeSortType": {
+		"text": "羈絆等級"
+	}
+}
